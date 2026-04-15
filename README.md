@@ -215,7 +215,7 @@ ai-Agent/
 │       └── MyLoggerAdvisor.java         # 请求/响应日志拦截
 │
 ├── src/main/resources/
-│   └── application.yml                  # ⚠️ 配置文件（含 API Key 占位，勿提交真实值）
+│   └── application.yml                  
 │
 ├── ai-Agent-frontend/                   # Vue 3 前端
 │   ├── src/

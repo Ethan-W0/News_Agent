@@ -1,0 +1,48 @@
+// ================================================
+//  中国风色彩体系
+// ================================================
+
+// 主色调
+$ink-green:     #2D4A3E;   // 墨绿 — 导航/标题/强调
+$rice-white:    #F5F0E8;   // 米白 — 页面主背景
+$light-gray:    #D9D3C7;   // 淡灰 — 分隔线/边框
+$dark-brown:    #3E2F1C;   // 深褐 — 正文文字
+$paper-yellow:  #EDE3C8;   // 宣纸黄 — 卡片背景
+
+// 点缀色
+$vermilion:     #C0392B;   // 朱红 — 按钮/印章/高亮
+$vermilion-light: #E55B4D; // 浅朱红 — hover 状态
+$indigo:        #2C3E7A;   // 靛蓝 — AI 消息气泡
+$indigo-light:  #3D5299;   // 浅靛蓝
+$celadon:       #A8C5A0;   // 青瓷绿 — 辅助色
+$ink-black:     #1A1A1A;   // 墨黑 — 深色文字
+
+// 透明度变体
+$ink-green-10:  rgba(45, 74, 62, 0.10);
+$ink-green-20:  rgba(45, 74, 62, 0.20);
+$dark-brown-60: rgba(62, 47, 28, 0.60);
+$vermilion-15:  rgba(192, 57, 43, 0.15);
+
+// ================================================
+//  字体体系
+// ================================================
+$font-serif:    'Noto Serif SC', 'Source Han Serif CN', '宋体', Georgia, serif;
+$font-sans:     'Noto Sans SC', 'PingFang SC', '微软雅黑', sans-serif;
+$font-cursive:  'Ma Shan Zheng', 'KaiTi', '楷体', cursive;
+
+// ================================================
+//  尺寸与间距
+// ================================================
+$radius-sm:     4px;
+$radius-md:     8px;
+$radius-lg:     16px;
+$radius-xl:     24px;
+
+$shadow-paper:  0 2px 12px rgba(62, 47, 28, 0.12), 0 1px 4px rgba(62, 47, 28, 0.08);
+$shadow-card:   0 4px 20px rgba(45, 74, 62, 0.15), 0 1px 6px rgba(45, 74, 62, 0.10);
+
+// ================================================
+//  过渡动画
+// ================================================
+$transition-base:  all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+$transition-slow:  all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
